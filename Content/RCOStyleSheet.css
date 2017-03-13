@@ -1,0 +1,409 @@
+﻿body 
+{
+    width:auto;
+    margin:50px auto 0 auto;
+    background-image:url('../images/dektopwall.png');
+    background-attachment:fixed;
+    background-repeat:repeat;   
+}
+div#header 
+{
+    width:1160px;
+    margin:0 auto 0 auto;
+    height:110px;
+    background-color:#f1f1f1;
+    padding:10px 0px 10px 20px;
+}
+div#header #headerLogo
+{
+    background-image:url('../images/wblogo.png');
+    background-repeat:no-repeat;
+    padding-left:0px;
+    height:110px;
+    width:1000px;
+    background-color:transparent;
+}
+
+div#menu 
+{
+    width:1180px;
+    margin:0 auto 0 auto;
+    background-color:#f1f1f1;
+    height:40px;
+}
+div#welcomePanel
+{
+    width:1160px;
+    margin:0 auto 0 auto;
+    background-color:purple;
+    height:30px;
+    text-align:left;
+    font-family:"Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Calibri, Helvetica, sans-serif;
+    font-size :larger;
+    color:#fff;
+    padding:5px 10px 5px 10px;
+}
+div.dateTimeDiv
+{
+    width:240px;
+    margin:0 auto 0 auto;
+    background-color:transparent;
+    height:20px;
+    padding:5px 5px 5px 5px;
+    text-align:left;
+    font-family:"Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Calibri, Helvetica, sans-serif;
+    font-size :small;
+    color:#fff;
+    float:right;
+}
+div.appName
+{
+    width:540px;
+    margin:0 auto 0 auto;
+    background-color:transparent;
+    height:20px;
+    padding:5px 5px 5px 5px;
+    text-align:center;
+    font-family:"Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Calibri, Helvetica, sans-serif;
+    font-size :large;
+    color:#fff;
+    float:right;
+}
+div.userNameDisp
+{
+    width:330px;
+    background-color:transparent;
+    height:20px;  
+    display:inline-block;
+    vertical-align:baseline;
+    position:absolute;
+    padding:5px 5px 5px 5px;
+    text-align:left;
+    font-family:"Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Calibri, Helvetica, sans-serif;
+    font-size :small;
+    color:#fff;
+}
+div.welcomeInsideLabelLeft
+{
+    width:900px;
+    background-color:transparent;
+    height:30px;  
+    display:inline-block;
+    vertical-align:baseline;
+    position:absolute;
+}
+div.welcomeMsgLabelRight
+{
+    width:200px;
+    margin:0 auto 0 auto;
+    background-color:transparent;
+    height:30px;
+    text-align:left;
+    font-family:"Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Calibri, Helvetica, sans-serif;
+    font-size :x-small;
+    color:#fff;
+    padding:5px 5px 5px 5px;
+    float:right;
+}
+div#thinLine
+{
+    width:1100px;
+    margin:0 auto 0 auto;
+    background-color:#fff;
+    height:5px;
+}
+div#wrapper
+{
+    width:1200px;
+    margin:0 auto 0 auto;
+    background-color:#f8f8f8;
+    padding:20px 20px 20px 20px;
+} 
+div#container
+{
+    width:1160px;
+    margin:0 auto 0 auto;
+    background-color:#fff;
+    padding:10px 10px 10px 10px;   
+}
+div#containerReport
+{
+    width:1000px;
+    margin:0 auto 0 auto;
+    background-color:#fff;
+    padding:30px 10px 10px 10px;
+    font-family:"Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Calibri, Helvetica, sans-serif;
+}
+#wrapperInside
+{
+    width:1180px;
+    margin:0 auto 0 auto;
+    background-color:#fff;
+    padding:10px 10px 10px 10px;
+    -moz-box-shadow: 3px 3px 20px #999;
+    -webkit-box-shadow: 3px 3px 20px #999;
+    box-shadow:3px 3px 20px #999;
+    border:solid 2px #eee;
+    -moz-box-shadow: 3px 3px 20px #999;
+    -webkit-box-shadow: 3px 3px 20px #999;
+    box-shadow:3px 3px 20px #999;
+    border:solid 0px #eee;
+}
+ div#wrapperLogin
+{
+    width:1010px;
+    margin:100px auto 0 auto;
+    background-color:transparent;
+    padding:10px 10px 10px 10px;
+}
+ div#thinLineLogin
+{
+    width:1000px;
+    margin:0 auto 0 auto;
+    background-color:transparent;
+    height:5px;
+    text-align:right;
+    padding-right:0px;
+    font-family:"Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Calibri, Helvetica, sans-serif;
+    font-size:small;
+    color:#808080;
+}
+ div#containerLoginMain
+{
+    width:1000px;
+    margin:0 auto 0 auto;
+    background-color:#fff;
+    padding:10px 10px 10px 10px;
+    height:390px;
+}
+ div#containerLoginRight
+{
+    width:400px;
+    margin:0 auto 0 auto;
+    background-color:purple;
+    padding:30px 10px 10px 10px;
+    float:right;
+    text-align:center;
+    font-family:"Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Calibri, Helvetica, sans-serif;
+    font-size :large;
+    font-weight:200;
+    color:#fff;
+    height:350px;
+    
+}
+div#containerLoginLeft
+{
+    width:580px;
+    margin:0 auto 0 auto;
+    background-color:#ccc;
+    height:390px;  
+    display:inline-block;
+    vertical-align:baseline;
+    position:absolute;
+    background-image:url('../images/ship.png');
+}
+div#rcoattnRegister
+{
+    text-align:center;
+    font-family:"Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Calibri, Helvetica, sans-serif;
+    font-size :x-large;
+    font-weight:200;
+    color:#fff;
+    height:274px;  
+}
+div#loginControls
+{
+    margin:0 auto 0 auto;
+    width:330px;
+    font-family:"Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Calibri, Helvetica, sans-serif;
+    font-size :medium;
+    font-weight:200;
+    height:180px; 
+    text-align:left;
+    padding:20px 20px 20px 20px; 
+    background-color:#fff;
+}
+.txtBoxLogin
+{
+    width:290px;
+    height:20px;
+    padding-left:20px;
+    border:1px solid #f1f1f1;
+    background-color:#fff;
+}
+.textBoxReport
+{
+    width:200px;
+    height:20px;
+    padding-left:20px;
+    border:1px solid #f1f1f1;
+    background-color:#fff;
+}
+.Label
+{
+    color:black;
+    font-weight:bold;
+}
+#footer
+{
+    text-align:center;
+    padding:20px 20px 20px 20px;
+    font-family:"Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Calibri, Helvetica, sans-serif;
+    font-size:small;
+    color:gray;
+    margin:0px auto 0px auto;
+}
+div#containerControlDash
+{
+    width:600px;
+    margin:10px auto 0 auto;
+    background-color:#f8f8f8;
+    padding:50px 10px 10px 200px;
+    border-radius:10px;    
+}
+div#containerAudit
+{
+    width:1000px;
+    margin:10px auto 0 auto;
+    background-color:#f8f8f8;
+    padding:50px 10px 10px 10px;
+    border-radius:10px;    
+}
+
+#userManangement
+{
+    font-family:"Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Calibri, Helvetica, sans-serif;
+    font-size:x-large;
+    color:gray;
+    text-align:left;
+    height:20px;
+    border-bottom:1px  solid #e3eee4;
+    padding-bottom:10px;
+
+}
+#label
+{
+    width:130px;
+    background-color:transparent;
+    height:20px;  
+    display:inline-block;
+    vertical-align:baseline;
+    text-align:right;
+    padding-right:10px;
+}
+.button
+{
+    width:80px;
+    height:40px;
+    font-size:large;
+    font-family:"Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Calibri, Helvetica, sans-serif;
+    font-weight:bold;
+    border:1px solid #e3eee4;
+}
+.button:hover
+{
+    background-color:#ccc;
+}
+.watermark
+ {
+   color : Gray;
+   background-color : #dddddd;
+   font-size: smaller;
+   font-style:italic;
+ }
+div#wrapperCustomError
+{
+    width:1200px;
+    margin:0 auto 0 auto;
+    background-color:transparent;
+    padding:20px 20px 20px 20px;
+}
+#CustomerrorLogo
+{
+    width:880px;
+    margin:0 auto 0 auto;
+    background-color:transparent;
+    height:190px;  
+    background-image:url('../images/wblogo.png');
+    background-repeat:no-repeat;
+}
+#CustomerrorMessage
+{
+    width:700px;
+    margin:0 auto 0 auto;
+    background-color:#f1f1f1;
+    height:260px;  
+    border:15px solid purple;
+    padding:50px 50px 50px 50px;
+}
+#CustomerrorMessage2
+{
+    height:20px; 
+    background-color:#e3eee4; 
+    color:maroon; 
+    text-align:center; 
+    padding:10px 20px 10px 20px; 
+    font-family:"Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Calibri, Helvetica, sans-serif;
+    font-size:large; 
+    border-radius:5px;
+}
+#CustomerrorImage
+{
+    width:700px;
+    margin:0 auto 0 auto;
+    background-color:transparent;
+    height:190px;  
+    background-image:url('../images/sorry.png');
+    background-repeat:no-repeat;
+    text-align:center;
+}
+div.RcoSearchOptionsDiv .RcoSearchOptions
+{
+    width:180px;
+    background-color:transparent;
+    height:20px;  
+    display:inline-block;
+    vertical-align:baseline;
+    text-align:left;
+    padding-right:10px;
+    font-family:"Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Calibri, Helvetica, sans-serif;
+    font-size:small;
+    font-weight:bold;
+    color:#000;
+}
+div.RcoSearchControlsDiv .RcoSearchLabels
+{
+    width:190px;
+    background-color:transparent;
+    height:20px;  
+    display:inline-block;
+    vertical-align:baseline;
+    text-align:right;
+    padding-right:10px;
+    padding-left:10px;
+    font-family:"Lucida Sans Unicode", "Bitstream Vera Sans", "Trebuchet Unicode MS", "Lucida Grande", Verdana, Calibri, Helvetica, sans-serif;
+    font-size:small;
+    font-weight:bold;
+    color:#000;
+}
+div.RcoSearchOptionsDiv
+{
+    padding:5px 0px 5px 0px;
+    width:1150px;
+    background-color:transparent;
+    height:25px;  
+    margin:0px auto 0px auto;
+    text-align:center;
+    background-color:#f1f1f1;
+}
+div.RcoSearchControlsDiv
+{
+    padding:5px 0px 5px 0px;
+    width:1150px;
+    background-color:transparent;
+    height:40px;  
+    margin:0px auto 0px auto;
+    text-align:center;
+    background-color:#f1f1f1;
+}
+

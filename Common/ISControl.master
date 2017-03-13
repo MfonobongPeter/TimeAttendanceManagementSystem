@@ -1,0 +1,54 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="ISControl.master.cs" Inherits="Common_ISControl" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+     <meta charset="utf-8" />
+     <title></title>
+     <meta name="viewport" content="width=device-width" />
+    <meta http-equiv="X-UA-Compatible" content="IE-EmulateIE7" />
+    <link href="../Content/RCOStyleSheet.css" type="text/css" rel="stylesheet" />
+    <link href="../Content/Menu.css" type="text/css" rel="stylesheet" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <asp:ScriptManager ID="ScriptManager1" runat="server"></asp:ScriptManager>
+    <div id ="wrapper">
+        <div id ="wrapperInside">
+        <div id="header">
+            <div id="headerLogo">             
+                <%--<img src ="~/Images/wblogo.png" alt="Wema Logo" />--%>
+            </div>
+
+        </div>
+        <div id ="thinLine"></div>
+        <div id ="welcomePanel">
+            <div class ="welcomeInsideLabelLeft"><div class="userNameDisp">
+                <asp:Label ID="lblUserNameDisp" runat="server" Text=""></asp:Label></div><div class ="appName">Automated RCO Attendance Register</div></div>
+            <div class="dateTimeDiv"><asp:Label ID ="lblDateTime" runat ="server" Text="DateTime"></asp:Label></div>
+        </div>
+        <div id="menu">
+            <div class="menubar">
+    <div class="menu">
+		<ul>
+			<li><a href='<%=ResolveUrl("~/ViewRCOs.aspx") %>'>View Report</a></li>  
+			<li><a href='<%=ResolveUrl("~/UserMgmt.aspx") %>'>User Management</a></li>          
+			<li><asp:LinkButton ID="LinkButton1" runat="server" ValidationGroup="logout" OnClientClick = "return confirm('Are you sure you want to logout?')" OnClick="LinkButton1_Click">[Log Out]</asp:LinkButton></li>
+            
+		</ul>
+	</div>
+	</div>
+
+        </div>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        
+        </asp:ContentPlaceHolder>
+           <div id="footer">&copy; 2015, Wema Bank Plc</div>
+        </div>
+    </div>
+    </form>
+</body>
+</html>
